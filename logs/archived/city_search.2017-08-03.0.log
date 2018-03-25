@@ -1,0 +1,32 @@
+2017-08-03 00:02:07 - Starting CitySearchApplicationStartUp on AswinSelvakumar with PID 8056 (started by aswin_selvakumar in D:\My Application\city-search-core)
+2017-08-03 00:02:07 - No active profile set, falling back to default profiles: default
+2017-08-03 00:02:07 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2b51c341: startup date [Thu Aug 03 00:02:07 IST 2017]; root of context hierarchy
+2017-08-03 00:02:10 - Tomcat initialized with port(s): 9085 (http)
+2017-08-03 00:02:10 - Starting service Tomcat
+2017-08-03 00:02:10 - Starting Servlet Engine: Apache Tomcat/8.5.6
+2017-08-03 00:02:10 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2017-08-03 00:02:10 - Initializing Spring embedded WebApplicationContext
+2017-08-03 00:02:10 - Root WebApplicationContext: initialization completed in 2836 ms
+2017-08-03 00:02:10 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-08-03 00:02:10 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-08-03 00:02:10 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-08-03 00:02:10 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-08-03 00:02:10 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-08-03 00:02:10 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2b51c341: startup date [Thu Aug 03 00:02:07 IST 2017]; root of context hierarchy
+2017-08-03 00:02:10 - Mapped "{[/app/city/],methods=[GET],params=[],headers=[],consumes=[application/json],produces=[],custom=[]}" onto public void com.app.controllers.CityController.handleCitySearchRequest(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-08-03 00:02:10 - Mapped "{[/app/city/],methods=[POST],params=[],headers=[],consumes=[application/json],produces=[],custom=[]}" onto public void com.app.controllers.CityController.addCity(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,com.app.models.City)
+2017-08-03 00:02:10 - Mapped "{[/error],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-08-03 00:02:10 - Mapped "{[/error],methods=[],params=[],headers=[],consumes=[],produces=[text/html],custom=[]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-08-03 00:02:10 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-08-03 00:02:10 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-08-03 00:02:10 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-08-03 00:02:10 - LiveReload server is running on port 35729
+2017-08-03 00:02:10 - Registering beans for JMX exposure on startup
+2017-08-03 00:02:10 - Initializing ProtocolHandler ["http-nio-9085"]
+2017-08-03 00:02:10 - Starting ProtocolHandler [http-nio-9085]
+2017-08-03 00:02:10 - Using a shared selector for servlet write/read
+2017-08-03 00:02:10 - Tomcat started on port(s): 9085 (http)
+2017-08-03 00:02:10 - Started CitySearchApplicationStartUp in 3.77 seconds (JVM running for 281.358)
+2017-08-03 00:03:14 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-08-03 00:03:14 - FrameworkServlet 'dispatcherServlet': initialization started
+2017-08-03 00:03:14 - FrameworkServlet 'dispatcherServlet': initialization completed in 61 ms

@@ -1,0 +1,262 @@
+2017-10-30 22:31:26 - Initializing servlet 'dispatcherServlet'
+2017-10-30 22:31:26 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-10-30 22:31:26 - FrameworkServlet 'dispatcherServlet': initialization started
+2017-10-30 22:31:26 - Returning cached instance of singleton bean 'multipartResolver'
+2017-10-30 22:31:26 - Using MultipartResolver [org.springframework.web.multipart.support.StandardServletMultipartResolver@47bcad51]
+2017-10-30 22:31:26 - Creating instance of bean 'org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver'
+2017-10-30 22:31:26 - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2017-10-30 22:31:26 - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2017-10-30 22:31:26 - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2017-10-30 22:31:26 - Finished creating instance of bean 'org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver'
+2017-10-30 22:31:26 - Unable to locate LocaleResolver with name 'localeResolver': using default [org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@58f38617]
+2017-10-30 22:31:26 - Creating instance of bean 'org.springframework.web.servlet.theme.FixedThemeResolver'
+2017-10-30 22:31:26 - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2017-10-30 22:31:26 - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2017-10-30 22:31:26 - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2017-10-30 22:31:26 - Finished creating instance of bean 'org.springframework.web.servlet.theme.FixedThemeResolver'
+2017-10-30 22:31:26 - Unable to locate ThemeResolver with name 'themeResolver': using default [org.springframework.web.servlet.theme.FixedThemeResolver@25e09d08]
+2017-10-30 22:31:26 - Returning cached instance of singleton bean 'requestMappingHandlerMapping'
+2017-10-30 22:31:26 - Returning cached instance of singleton bean 'viewControllerHandlerMapping'
+2017-10-30 22:31:26 - Returning cached instance of singleton bean 'beanNameHandlerMapping'
+2017-10-30 22:31:26 - Returning cached instance of singleton bean 'resourceHandlerMapping'
+2017-10-30 22:31:26 - Returning cached instance of singleton bean 'defaultServletHandlerMapping'
+2017-10-30 22:31:26 - Returning cached instance of singleton bean 'faviconHandlerMapping'
+2017-10-30 22:31:26 - Returning cached instance of singleton bean 'welcomePageHandlerMapping'
+2017-10-30 22:31:26 - Returning cached instance of singleton bean 'requestMappingHandlerAdapter'
+2017-10-30 22:31:26 - Returning cached instance of singleton bean 'httpRequestHandlerAdapter'
+2017-10-30 22:31:26 - Returning cached instance of singleton bean 'simpleControllerHandlerAdapter'
+2017-10-30 22:31:26 - Returning cached instance of singleton bean 'errorAttributes'
+2017-10-30 22:31:26 - Returning cached instance of singleton bean 'handlerExceptionResolver'
+2017-10-30 22:31:26 - Creating instance of bean 'org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator'
+2017-10-30 22:31:26 - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2017-10-30 22:31:26 - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2017-10-30 22:31:26 - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2017-10-30 22:31:26 - Finished creating instance of bean 'org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator'
+2017-10-30 22:31:26 - Unable to locate RequestToViewNameTranslator with name 'viewNameTranslator': using default [org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@659fe06]
+2017-10-30 22:31:26 - Returning cached instance of singleton bean 'beanNameViewResolver'
+2017-10-30 22:31:26 - Returning cached instance of singleton bean 'mvcViewResolver'
+2017-10-30 22:31:26 - Returning cached instance of singleton bean 'defaultViewResolver'
+2017-10-30 22:31:26 - Returning cached instance of singleton bean 'viewResolver'
+2017-10-30 22:31:26 - Creating instance of bean 'org.springframework.web.servlet.support.SessionFlashMapManager'
+2017-10-30 22:31:26 - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2017-10-30 22:31:26 - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2017-10-30 22:31:26 - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2017-10-30 22:31:26 - Finished creating instance of bean 'org.springframework.web.servlet.support.SessionFlashMapManager'
+2017-10-30 22:31:26 - Unable to locate FlashMapManager with name 'flashMapManager': using default [org.springframework.web.servlet.support.SessionFlashMapManager@21c7012c]
+2017-10-30 22:31:26 - Published WebApplicationContext of servlet 'dispatcherServlet' as ServletContext attribute with name [org.springframework.web.servlet.FrameworkServlet.CONTEXT.dispatcherServlet]
+2017-10-30 22:31:26 - FrameworkServlet 'dispatcherServlet': initialization completed in 96 ms
+2017-10-30 22:31:26 - Servlet 'dispatcherServlet' configured successfully
+2017-10-30 22:31:26 - Bound request context to thread: org.apache.catalina.connector.RequestFacade@2d4d310f
+2017-10-30 22:31:26 - DispatcherServlet with name 'dispatcherServlet' processing POST request for [/app/city/]
+2017-10-30 22:31:26 - Looking up handler method for path /app/city/
+2017-10-30 22:31:26 - Returning handler method [public void com.app.controllers.CityController.addCity(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,com.app.models.City)]
+2017-10-30 22:31:26 - Returning cached instance of singleton bean 'getCityController'
+2017-10-30 22:31:26 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2017-10-30 22:31:26 - Statistics initialized [enabled=false]
+2017-10-30 22:31:27 - Reading [class com.app.models.City] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@3f650087]
+2017-10-30 22:31:27 - 100002;Received add request for the city :Salem
+2017-10-30 22:31:27 - 100004;Validating the City add request
+2017-10-30 22:31:27 - Returning cached instance of singleton bean 'transactionManager'
+2017-10-30 22:31:27 - Found thread-bound EntityManager [org.hibernate.jpa.internal.EntityManagerImpl@55db5d17] for JPA transaction
+2017-10-30 22:31:27 - Creating new transaction with name [com.app.dao.CityDaoImpl.addCity]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2017-10-30 22:31:27 - begin
+2017-10-30 22:31:27 - Exposing JPA transaction as JDBC transaction [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@37334049]
+2017-10-30 22:31:27 - select nextval ('hibernate_sequence')
+2017-10-30 22:31:27 - Sequence identifier generated: BasicHolder[java.lang.Long[1]]
+2017-10-30 22:31:27 - HHH000387: ResultSet's statement was not registered
+2017-10-30 22:31:27 - Generated identifier: 1, using strategy: org.hibernate.id.SequenceGenerator
+2017-10-30 22:31:27 - 0; Success
+2017-10-30 22:31:27 - Flushing Hibernate Session on transaction synchronization
+2017-10-30 22:31:27 - Processing flush-time cascades
+2017-10-30 22:31:27 - Dirty checking collections
+2017-10-30 22:31:27 - Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
+2017-10-30 22:31:27 - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-10-30 22:31:27 - Listing entities:
+2017-10-30 22:31:27 - com.app.entities.CityInfo{cityShortName=null, cityState=TN, cityName=Salem, cityId=1, cityCountry=India}
+2017-10-30 22:31:27 - insert into city_info (city_country, city_name, city_short_name, city_state, city_id) values (?, ?, ?, ?, ?)
+2017-10-30 22:31:27 - Disconnecting session
+2017-10-30 22:31:27 - Initiating transaction commit
+2017-10-30 22:31:27 - Committing JPA transaction on EntityManager [org.hibernate.jpa.internal.EntityManagerImpl@55db5d17]
+2017-10-30 22:31:27 - committing
+2017-10-30 22:31:27 - Unexpected exception on closing Hibernate Session
+java.lang.NoSuchMethodError: org.hibernate.Session.close()Ljava/sql/Connection;
+	at org.springframework.orm.hibernate4.SessionFactoryUtils.closeSession(SessionFactoryUtils.java:121)
+	at org.springframework.orm.hibernate4.SpringSessionSynchronization.afterCompletion(SpringSessionSynchronization.java:150)
+	at org.springframework.transaction.support.TransactionSynchronizationUtils.invokeAfterCompletion(TransactionSynchronizationUtils.java:168)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.invokeAfterCompletion(AbstractPlatformTransactionManager.java:1001)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.triggerAfterCompletion(AbstractPlatformTransactionManager.java:976)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:806)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:730)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:504)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:292)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:213)
+	at com.sun.proxy.$Proxy78.addCity(Unknown Source)
+	at com.app.controllers.CityController.addCity(CityController.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:220)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:89)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:108)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:784)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:802)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1410)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2017-10-30 22:31:27 - Not closing pre-bound JPA EntityManager after transaction
+2017-10-30 22:31:27 - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2017-10-30 22:31:27 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2017-10-30 22:31:27 - Closing JPA EntityManager
+2017-10-30 22:31:27 - Successfully completed request
+2017-10-30 22:31:27 - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@2d4d310f
+2017-10-30 22:33:39 - Bound request context to thread: org.apache.catalina.connector.RequestFacade@2d4d310f
+2017-10-30 22:33:39 - DispatcherServlet with name 'dispatcherServlet' processing POST request for [/app/city/]
+2017-10-30 22:33:39 - Looking up handler method for path /app/city/
+2017-10-30 22:33:39 - Returning handler method [public void com.app.controllers.CityController.addCity(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,com.app.models.City)]
+2017-10-30 22:33:39 - Returning cached instance of singleton bean 'getCityController'
+2017-10-30 22:33:39 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2017-10-30 22:33:39 - Reading [class com.app.models.City] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@3f650087]
+2017-10-30 22:33:39 - 100002;Received add request for the city :Salem
+2017-10-30 22:33:39 - 100004;Validating the City add request
+2017-10-30 22:33:39 - Found thread-bound EntityManager [org.hibernate.jpa.internal.EntityManagerImpl@750caff1] for JPA transaction
+2017-10-30 22:33:39 - Creating new transaction with name [com.app.dao.CityDaoImpl.addCity]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2017-10-30 22:33:39 - begin
+2017-10-30 22:33:39 - Exposing JPA transaction as JDBC transaction [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@7bcb4f20]
+2017-10-30 22:33:39 - select nextval ('hibernate_sequence')
+2017-10-30 22:33:39 - Sequence identifier generated: BasicHolder[java.lang.Long[2]]
+2017-10-30 22:33:39 - HHH000387: ResultSet's statement was not registered
+2017-10-30 22:33:39 - Generated identifier: 2, using strategy: org.hibernate.id.SequenceGenerator
+2017-10-30 22:33:39 - 0; Success
+2017-10-30 22:33:39 - Flushing Hibernate Session on transaction synchronization
+2017-10-30 22:33:39 - Processing flush-time cascades
+2017-10-30 22:33:39 - Dirty checking collections
+2017-10-30 22:33:39 - Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
+2017-10-30 22:33:39 - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-10-30 22:33:39 - Listing entities:
+2017-10-30 22:33:39 - com.app.entities.CityInfo{cityShortName=SLM, cityState=TN, cityName=Salem, cityId=2, cityCountry=India}
+2017-10-30 22:33:39 - insert into city_info (city_country, city_name, city_short_name, city_state, city_id) values (?, ?, ?, ?, ?)
+2017-10-30 22:33:39 - Disconnecting session
+2017-10-30 22:33:39 - Initiating transaction commit
+2017-10-30 22:33:39 - Committing JPA transaction on EntityManager [org.hibernate.jpa.internal.EntityManagerImpl@750caff1]
+2017-10-30 22:33:39 - committing
+2017-10-30 22:33:39 - Unexpected exception on closing Hibernate Session
+java.lang.NoSuchMethodError: org.hibernate.Session.close()Ljava/sql/Connection;
+	at org.springframework.orm.hibernate4.SessionFactoryUtils.closeSession(SessionFactoryUtils.java:121)
+	at org.springframework.orm.hibernate4.SpringSessionSynchronization.afterCompletion(SpringSessionSynchronization.java:150)
+	at org.springframework.transaction.support.TransactionSynchronizationUtils.invokeAfterCompletion(TransactionSynchronizationUtils.java:168)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.invokeAfterCompletion(AbstractPlatformTransactionManager.java:1001)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.triggerAfterCompletion(AbstractPlatformTransactionManager.java:976)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:806)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:730)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:504)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:292)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:213)
+	at com.sun.proxy.$Proxy78.addCity(Unknown Source)
+	at com.app.controllers.CityController.addCity(CityController.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:220)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:89)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:108)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:784)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:802)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1410)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2017-10-30 22:33:39 - Not closing pre-bound JPA EntityManager after transaction
+2017-10-30 22:33:39 - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2017-10-30 22:33:39 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2017-10-30 22:33:39 - Closing JPA EntityManager
+2017-10-30 22:33:39 - Successfully completed request
+2017-10-30 22:33:39 - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@2d4d310f
